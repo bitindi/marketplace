@@ -46,10 +46,10 @@ const Home: NextPage = () => {
               <p className={styles.heroSubtitle}>
                 <Link
                   className={styles.link}
-                  href="https://thirdweb.com"
+                  href="https://bitindi.com"
                   target="_blank"
                 >
-                  thirdweb
+                  Bitindi Chain
                 </Link>{" "}
                 gives you the tools you need to create audited, performant, and
                 flexible NFT marketplaces in <b>hours</b>, <i>not months</i>.
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://github.com/bitindi/marketplace"
                   target="_blank"
                 >
                   GitHub
