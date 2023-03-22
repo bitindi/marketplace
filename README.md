@@ -1,4 +1,4 @@
-# NFT Marketplace V3
+# NFT Marketplace
 
 Create an NFT marketplace on top of your NFT collection on **any** EVM-compatible blockchain.
 
@@ -55,8 +55,8 @@ If you haven't already, import your smart contracts into the [thirdweb dashboard
 
 // 1. Set up the network your smart contracts are deployed to.
 // First, import the chain from the package, then set the NETWORK variable to the chain.
-import { Mumbai } from "@thirdweb-dev/chains";
-export const NETWORK = Mumbai;
+import { Bitindi } from "@thirdweb-dev/chains";
+export const NETWORK = Bitindi;
 
 // 2. The address of the marketplace V3 smart contract.
 // Deploy your own: https://thirdweb.com/thirdweb.eth/MarketplaceV3
@@ -66,10 +66,10 @@ export const MARKETPLACE_ADDRESS = "";
 export const NFT_COLLECTION_ADDRESS = "";
 
 // (Optional) Set up the URL of where users can view transactions on
-// For example, below, we use Mumbai.polygonscan to view transactions on the Mumbai testnet.
-export const ETHERSCAN_URL = "https://mumbai.polygonscan.com";
+// For example, below, we use testnet.bitindiscan.com to view transactions on the Bitindi testnet.
+export const ETHERSCAN_URL = "https://testnet.bitindiscan.com";
 ```
 
-## Join our Discord!
+## Join our Telegram!
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For any questions, suggestions, join our Telegram at [https://t.me/bitindi](https://t.me/bitindi).
